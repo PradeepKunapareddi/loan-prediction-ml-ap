@@ -12,7 +12,7 @@ app = FastAPI(title="Loan Prediction API")
 model = joblib.load("loan_model.pkl")
 scaler = joblib.load("scaler.pkl")
 
-# These encodings must match the LabelEncoder mappings used in notebook.ipynb
+# These encodings must match the LabelEncoder mappings used in train_model.py
 GENDER_MAP = {"Female": 0, "Male": 1}
 MARRIED_MAP = {"No": 0, "Yes": 1}
 EDUCATION_MAP = {"Graduate": 0, "Not Graduate": 1}
