@@ -1,0 +1,8 @@
+pandas>=2.2
+numpy>=1.26
+scikit-learn>=1.5
+fastapi>=0.110
+pydantic>=2.6
+uvicorn>=0.29
+joblib>=1.4
+
